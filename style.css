@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+.info-card{
+    background-color: hsl(0, 0%, 12%);
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.Name h1{
+    font-weight: 700;
+}
+
+.Location h2{
+    color :hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.links{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    font-weight: 600;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 16rem;
+}
+
+/* Desktop */
+@media screen {
+    
+}
