@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body{
     background-color: hsl(0, 0%, 8%);
     font-size: 14px;
@@ -10,13 +13,25 @@ body{
 
 .info-card{
     background-color: hsl(0, 0%, 12%);
+    border-radius: 9px;
     font-family: 'Inter', sans-serif;
     margin: auto;
+    padding: 1rem;
     text-align: center;
+    width: 20rem;
+}
+
+.info-card img{
+    width: 5rem;
+    border-radius: 100%;
 }
 
 .Name h1{
     font-weight: 700;
+}
+
+.Location{
+    padding-bottom: 10px;
 }
 
 .Location h2{
@@ -25,18 +40,38 @@ body{
     font-weight: 600;
 }
 
+.Desc{
+    padding-bottom: 8px;
+}
+
 .links{
     background-color: hsl(0, 0%, 20%);
-    border-radius: 7px;
+    border-radius: 9px;
     font-weight: 600;
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 12px;
     padding: 15px;
-    width: 16rem;
+    width: 85%;
 }
 
 /* Desktop */
-@media screen {
-    
+@media only screen and (min-width: 768px) {
+    .info-card{
+        width: 25rem;
+        padding:1.2rem; 
+    }
+
+    .Location{
+        padding-bottom: 5px;
+    }
+
+    .Desc{
+        padding-bottom: 2px;
+    }
+
+    .links{
+        width: 80%;
+    }
 }
